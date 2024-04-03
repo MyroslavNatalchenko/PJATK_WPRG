@@ -1,0 +1,53 @@
+body{
+    background-color: #dedcdc;
+    font-family: Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+h1{
+    color: #065237;
+    font-size: 40px;
+    letter-spacing: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info_cards{
+    width: 500px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+
+.info_cards h2{
+    background-color: #065237;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.location, .indeks{
+    text-align: right;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.location{
+    color: #065237;
+}
+
+.email{
+    font-style: italic;
+    font-weight: bold;
+    color: #065237;
+    padding-left: 25px;
+}
+
+.phone_number{
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
