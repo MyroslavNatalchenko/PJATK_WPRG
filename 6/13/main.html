@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5x5</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .board {
+            display: grid;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(5, 1fr);
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+        }
+        .square {
+            box-sizing: border-box;
+            display: flex;
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+            border: 1px solid black;
+            background-color: #fde2b3;
+        }
+        .dark {
+            background-color: #ddb786;
+        }
+        .square a{
+            margin: 5px;
+            text-shadow: rgba(0,0,0,0.2) 1px 1px;
+        }
+    </style>
+</head>
+<body>
+<div class="board">
+    <!-- Создаём элементы с классом "square" для каждой ячейки сетки -->
+    <!-- Применяем класс "dark" для черных ячеек -->
+    <!-- Внутри каждой ячейки выводим номер -->
+    <!-- Используемые цвета: #fde2b3 - песочный, #ddb786 - бежевый -->
+    <!-- Черная обводка для каждой ячейки -->
+    <!-- Всего 25 ячеек для шахматной доски 5x5 -->
+    <div class="square"><a>1</a></div>
+    <div class="square dark"><a>2</a></div>
+    <div class="square"><a>3</a></div>
+    <div class="square dark"><a>4</a></div>
+    <div class="square"><a>5</a></div>
+    <div class="square dark"><a>6</a></div>
+    <div class="square"><a>7</a></div>
+    <div class="square dark"><a>8</a></div>
+    <div class="square"><a>9</a></div>
+    <div class="square dark"><a>10</a></div>
+    <div class="square"><a>11</a></div>
+    <div class="square dark"><a>12</a></div>
+    <div class="square"><a>13</a></div>
+    <div class="square dark"><a>14</a></div>
+    <div class="square"><a>15</a></div>
+    <div class="square dark"><a>16</a></div>
+    <div class="square"><a>17</a></div>
+    <div class="square dark"><a>18</a></div>
+    <div class="square"><a>19</a></div>
+    <div class="square dark"><a>20</a></div>
+    <div class="square"><a>21</a></div>
+    <div class="square dark"><a>22</a></div>
+    <div class="square"><a>23</a></div>
+    <div class="square dark"><a>24</a></div>
+    <div class="square"><a>25</a></div>
+</div>
+</body>
+</html>
